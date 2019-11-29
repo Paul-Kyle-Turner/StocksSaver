@@ -23,7 +23,7 @@ def settings(args):
     if args.pickle_file is None:
         pickle_path = config['DEFAULT']['picklePath']
     else:
-        pickle_path = args.pickle_path
+        pickle_path = args.pickle_file
 
     return api_key, pickle_path
 
